@@ -1,0 +1,9 @@
+*.log
+.*.swp
+.*.swo
+*.pyc
+build/
+dist/
+*.egg-info
+dev.cfg
+node_modules
