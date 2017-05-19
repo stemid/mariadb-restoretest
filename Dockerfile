@@ -13,6 +13,7 @@ RUN apt-get update && \
 RUN apt-get update && \
   apt-get install -y mariadb-server
 
+ADD ./run.conf.d /tmp/run.conf.d
 ADD ./setup-mysql.sh /tmp/setup-mysql.sh
 RUN /bin/sh /tmp/setup-mysql.sh
 
