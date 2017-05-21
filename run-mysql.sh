@@ -1,6 +1,6 @@
 #!/bin/sh
 
-test -f ./run.conf.d/local-settings && source ./run.conf.d/local-settings
+test -f /tmp/run.conf.d/local-settings && source /tmp/run.conf.d/local-settings
 
 datadir="${mysql_datadir:-/var/db/mysql}"
 
