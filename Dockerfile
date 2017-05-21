@@ -19,4 +19,4 @@ RUN /bin/sh /tmp/setup-mysql.sh
 
 ADD ./run-mysql.sh /tmp/run-mysql.sh
 
-CMD ["/bin/sh", "/tmp/run-mysql.sh"]
+CMD ["/bin/bash", "/tmp/run-mysql.sh"]

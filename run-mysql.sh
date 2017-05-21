@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 test -f /tmp/run.conf.d/local-settings && source /tmp/run.conf.d/local-settings
 
